@@ -33,7 +33,7 @@ def extract_images_from_zip(zip_path, output_dir):
 
 def main():
     img_directory = 'img'  # 源文件夹
-    img_all_directory = r'C:\Users\lenovo\Desktop\图片\网图\36壁纸'  # 目标文件夹
+    img_all_directory = r'img_all'  # 目标文件夹
 
     # 创建目标文件夹如果它不存在
     os.makedirs(img_all_directory, exist_ok=True)
