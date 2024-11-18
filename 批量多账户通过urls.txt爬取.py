@@ -9,7 +9,7 @@ import os
 import time
 
 # 设置WebDriver路径
-driver_path = 'C:\\Program Files\\Google\\Chrome\\Application\\chromedriver.exe'  # 替换为你的chromedriver路径
+driver_path = r'文件路径\chromedriver.exe'  # 替换为你的chromedriver路径
 
 # 创建img文件夹（如果不存在）
 download_dir = os.path.join(os.getcwd(), r'img\桌面美女图片')
