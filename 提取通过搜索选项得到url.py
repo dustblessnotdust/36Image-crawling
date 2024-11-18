@@ -13,8 +13,3 @@ with open("urls.txt", "a") as f:
             url=i.get("href")
             print(url)
             f.write(url+"\n")
-        # li=soup.find_all(attrs={"class": "box_black"})
-        # for li in li:
-        #     a=li.find(attrs={"class": "imgw"})
-        #     url=a.attrs["href"]
-        #     f.write(url+"\n")
