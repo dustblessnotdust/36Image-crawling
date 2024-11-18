@@ -190,7 +190,7 @@ while current_account_index < len(accounts) or page_number <= total_pages:
 
                 # 等待下载完成
                 if flag == 1 or flag == 0:
-                    time.sleep(20)  # 根据实际情况调整等待时间
+                    time.sleep(60)  # 根据实际情况调整等待时间
 
                 download_count += 1
 
